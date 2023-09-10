@@ -2,8 +2,9 @@ import { IconButton } from "@material-tailwind/react";
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 
 export interface IproductProps {
+  id: string;
   name: string;
-  price: number;
+  price: string;
   image: string;
 }
 

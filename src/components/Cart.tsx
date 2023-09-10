@@ -1,16 +1,10 @@
-import React, { useContext } from "react";
-import {
-  Drawer,
-  Button,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { CartContext } from "../contexts/CartContext";
+import { useContext } from "react";
 
 export function Cart() {
   const { open, setIsOpen } = useContext(CartContext);
 
-  const openDrawer = () => setIsOpen(true);
   const closeDrawer = () => setIsOpen(false);
 
   return (
