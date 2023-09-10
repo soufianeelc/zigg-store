@@ -6,7 +6,7 @@ export default function SearchBar() {
     >
       <label
         htmlFor="default-search"
-        className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+        className="mb-2 text-sm font-medium text-gray-900 sr-only"
       >
         Search
       </label>
@@ -14,7 +14,7 @@ export default function SearchBar() {
         <div className="absolute z-3 inset-y-0 left-0 flex items-center pl-3">
           <button type="submit">
             <svg
-              className="w-3 h-3 text-gray-500 dark:text-gray-400"
+              className="w-3 h-3 text-gray-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -34,7 +34,7 @@ export default function SearchBar() {
         <input
           type="search"
           id="default-search"
-          className="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-transparent focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          className="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-transparent focus:ring-gray-500 focus:border-gray-500"
           placeholder="Search"
           required
         />

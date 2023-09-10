@@ -15,7 +15,7 @@ export default function Features() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <Feature
           title="Original Products"
-          desc="lorem upsum dolor sit  aet"
+          desc="Unique, handpicked fashion for bold, style-conscious individuals."
           Icon={SparklesIcon}
         />
         <Feature
