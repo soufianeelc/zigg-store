@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Autumn Dress",
+      "price": "85",
+      "sale": "false",
+      "image": "/products/autumn-dress.webp"
+    },
+    {
+      "id": "2",
+      "name": "Bomber Jacket",
+      "price": "96",
+      "sale": "false",
+      "image": "/products/bomber-jacket.webp"
+    },
+    {
+      "id": "3",
+      "name": "Oversized Leg Warmers",
+      "price": "12",
+      "sale": "false",
+      "image": "/products/leg-warmers.webp"
+    }
+  ]
+}
